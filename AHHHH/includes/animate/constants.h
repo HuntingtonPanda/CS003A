@@ -1,0 +1,12 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+const float SCREEN_WIDTH = 2100;
+const float SCREEN_HEIGHT = 1200;
+const float WORK_PANEL = SCREEN_WIDTH*3/5;
+const float SIDE_BAR = SCREEN_WIDTH*2/5;
+
+
+const int SB_MOUSE_POSITION = 0;
+const int SB_MOUSE_CLICKED = SB_MOUSE_POSITION + 1;
+const int SB_KEY_PRESSED = SB_MOUSE_CLICKED + 1;
+#endif // CONSTANTS_H
